@@ -1,6 +1,6 @@
 // Table.js
 import React, { useState } from 'react';
-
+import './Table.css';
 // Sample data
 const userData = [
   { id: 1, name: 'John Doe', email: 'john@example.com', age: 30 },
