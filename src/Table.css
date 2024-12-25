@@ -1,0 +1,72 @@
+/* Table.css */
+
+/* General styles for the container */
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Search input styling */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  /* Header styling */
+  table th {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Header hover effect */
+  table th:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Row hover effect */
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #d1e7ff;
+  }
+  
+  /* Cell borders */
+  table th,
+  table td {
+    border: 1px solid #ddd;
+  }
+  
+  /* Sorting icons */
+  th span {
+    margin-left: 5px;
+    font-size: 0.9em;
+  }
